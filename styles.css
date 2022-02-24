@@ -658,7 +658,7 @@ footer p {
     justify-content: center;
   }
 
-  .flex-img img {
+  #v-team img {
     width: 100%;
     height: auto;
     padding: 10px;
