@@ -34,7 +34,7 @@ nav {
 
 .menuli {
   display: inline;
-  line-height: 65px;
+  line-height: 60px;
   padding: 5px;
 }
 
@@ -444,13 +444,16 @@ footer p {
 @media only screen and (min-width: 320px) and (max-width: 576px) {
   body {
     width: 100%;
+    margin: 0;
+  }
+
+  .menuli {
+    padding: 5px;
   }
 
   .menuli > a {
     font-weight: 500;
-    line-height: 20px;
-    font-size: 14px;
-    padding-right: 0px;
+    font-size: 10px;
   }
 
   .BannerText1,
