@@ -167,6 +167,7 @@ nav {
 }
 
 .contactbtn > a {
+  color: #000;
   text-decoration: none;
   position: relative;
   display: inline-block;
@@ -400,12 +401,22 @@ nav {
   padding-top: 14px;
 }
 
-#formulario label {
-  color: #b5ff00;
-  padding: 10px;
-  display: block;
-  position: relative;
-  text-align: center;
+.form-control {
+  width: 300px;
+}
+
+.form-img {
+  width: 50%;
+}
+
+.btn-form {
+  border-color: #000;
+  background-color: #b5ff00;
+}
+
+.btn-form:hover {
+  background: #b5ff00;
+  box-shadow: 0 0 10px #b5ff00, 0 0 40px #b5ff00, 0 0 80px #b5ff00;
 }
 
 footer {
@@ -414,7 +425,6 @@ footer {
 
 footer ul {
   list-style: none;
-  margin-left: 20px;
 }
 
 footer ul li a {
@@ -435,6 +445,10 @@ footer p {
   text-align: center;
   margin-top: 10px;
   padding-bottom: 10px;
+}
+
+p {
+  margin-bottom: 0rem;
 }
 
 /* Mobile View*/
@@ -701,4 +715,20 @@ footer p {
   footer p {
     font-size: 14px;
   }
+
+  .col {
+    width: auto;
+    padding: 10px;
+  }
+  /*
+  .form-flex,
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-control {
+    width: auto;
+    margin: 0px;
+  }*/
 }
