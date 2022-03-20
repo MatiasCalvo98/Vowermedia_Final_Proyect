@@ -1,0 +1,25 @@
+{
+  "name": "primera-entrega-final-matias-calvo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasCalvo98/Vowermedia_Final_Proyect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiasCalvo98/Vowermedia_Final_Proyect/issues"
+  },
+  "homepage": "https://github.com/MatiasCalvo98/Vowermedia_Final_Proyect#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
