@@ -48,7 +48,7 @@ nav {
     color: $green;
     transition: 0.5s;
   }
-  &:hover {
+  a:hover {
     color: $black;
     background-color: $green;
     border-radius: 3px;
